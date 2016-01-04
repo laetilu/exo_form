@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+  <form id="un" >
+      <p>
+       <legend> Full Name <span>*</span></legend>
+        <input required type="name" placeholder="First"/>
+        <input required type="name" placeholder="Last"/>
+      </p>
+       <legend>Email <span>*</span></legend>
+        <label for="email"></label>
+         <input required type="email"/>
+
+      <p>
+      <legend>Subject</legend>
+        <select>
+            <option>Advertise</option>
+            <option>Option 2</option>
+        </select>
+      </p>
+      <p>
+      <legend>Your message <span>*</span></legend>
+        <textarea required></textarea>
+      </p>
+      <p>
+      <div>
+      <input type=submit class="bouton">
+      </div>
+    </p>
+  </form>
+
+
+  <form id="deux" >
+       <h1>Provide your information</h1>
+       <hr>
+       <p>
+       <label for="Name">Name<span>*</span></label>
+         <input required type="name"/>
+       </p>
+       <p>
+       <label for="Email">Email<span>*</span></label>
+         <input required type="Email"/>
+       </p>
+       <p>
+       <label for="Telephone">Telephone</label>
+          <input type="text" maxlength="2"class="texte"/>-<input type="text"class="texte"/>-<input type="text"class="texte"/>-<input type="text"class="texte"/>-<input type="text"class="texte"/>
+      </p>
+      <p>
+      <label for="Regarding">Regarding</label>
+        <select>
+            <option>General</option>
+            <option>Option 2</option>
+        </select>
+      </p>
+      <p>
+      <label for="Message" class="message">Message<span>*</span></label>
+        <textarea required></textarea>
+      </p>
+      <p>
+      <div>
+      <input type=submit class="boutondeux">
+      </div>
+      </p>
+  </form>
+
+</html>

@@ -1,0 +1,58 @@
+* { 
+      -webkit-box-sizing: border-box;    
+      -moz-box-sizing: border-box;          
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+ }
+form {
+  margin-left: 2em;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.bouton {
+  background-color: #3798AE;
+  padding:8px;
+  color:#fff;
+  border-radius: 5px;
+}
+input:hover, textarea:hover {
+  box-shadow:1px 1px 1px 1px #3798AE;
+}
+input {
+  padding: 5px;
+}
+select {
+  padding: 5px;
+}
+span{
+  color:red;
+}
+
+/*#deux*/
+
+.boutondeux {
+  background-color: #FF7F00;
+  padding:8px;
+  color:#fff;
+  border-radius: 5px;
+}
+#deux label{
+  display:inline-block;
+  width: 100px;
+  margin-right: 30px;
+  font-weight: bold;
+}
+#deux textarea {
+  height: 70px;
+}
+.texte {
+  width:30px;
+
+}
+.message {
+  float:left;
+}
